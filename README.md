@@ -18,7 +18,7 @@ Defines a trigger function (`summary_trigger_function`) and creates a trigger (`
 ### Part F: Stored Procedures
 Defines a stored procedure (`refresh_tables`) that deletes data from both the `Detailed` and `Summary` tables and repopulates them by performing the same data extraction as in Part D. It also includes a call to this procedure.
 
-### Part F TEST
+### Part F: TEST
 This section includes test calls to the `refresh_tables` stored procedure and verifies the changes by counting the number of rows in the `Detailed` table before and after the procedure call.
 
 In summary, the code sets up a database schema for managing movie rental information, including detailed records and summary statistics, and provides functions and procedures for extracting, transforming, and loading data into these tables. Additionally, it includes triggers to automatically update summary information when new rental details are added.
